@@ -1,6 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Input, InputGroup, InputGroupText } from "reactstrap";
+import "./InputStory.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 export interface Props {
   color?: string;
@@ -12,9 +14,18 @@ export interface Props {
 }
 function InputStory({ children }: Props) {
   return (
-    <Input autoFocus={true} addon={true}>
-      {children}
-    </Input>
+    // <div className="inner-addon left-addon">
+    //   <i className="bi bi-person-fill"></i>
+    //   <input type="text" className="form-control" placeholder="Username" />
+    // </div>
+
+    <InputGroup className="inner-addon left-addon">
+      <i className="bi bi-person-fill left"></i>
+      <Input placeholder="helllo"></Input>
+    </InputGroup>
+    // <Input autoFocus={true} addon={true}>
+    //   {children}
+    // </Input>
   );
 }
 
