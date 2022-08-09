@@ -1,0 +1,83 @@
+  export const OutlineLight = Template.bind({});
+  OutlineLight.args = {
+    color: "light",
+    outline: true,
+  };
+  OutlineLight.storyName =
+    "Size=medium, Type=light, Outline=true, State=normal, Icon Only=false";
+
+  export const OutlineLightActive = Template.bind({});
+  OutlineLightActive.args = {
+    color: "light",
+    outline: true,
+    state: "active",
+  };
+  OutlineLightActive.storyName =
+    "Size=medium, Type=light, Outline=true, State=active, Icon Only=false";
+
+  export const OutlineLightDisabled = Template.bind({});
+  OutlineLightDisabled.args = {
+    color: "light",
+    outline: true,
+    state: "disabled",
+  };
+  OutlineLightDisabled.storyName =
+    "Size=medium, Type=light, Outline=true, State=disabled, Icon Only=false";
+
+  export const OutlineLightLarge = Template.bind({});
+  OutlineLightLarge.args = {
+    color: "light",
+    size: "lg",
+    outline: true,
+  };
+  OutlineLightLarge.storyName =
+    "Size=large, Type=light, Outline=true, State=normal, Icon Only=false";
+
+  export const OutlineLightLargeActive = Template.bind({});
+  OutlineLightLargeActive.args = {
+    color: "light",
+    size: "lg",
+    outline: true,
+    state: "active",
+  };
+  OutlineLightLargeActive.storyName =
+    "Size=large, Type=light, Outline=true, State=active, Icon Only=false";
+
+  export const OutlineLightLargeDisabled = Template.bind({});
+  OutlineLightLargeDisabled.args = {
+    color: "light",
+    size: "lg",
+    outline: true,
+    state: "disabled",
+  };
+  OutlineLightLargeDisabled.storyName =
+    "Size=large, Type=light, Outline=true, State=disabled, Icon Only=false";
+
+  export const OutlineLightSmall = Template.bind({});
+  OutlineLightSmall.args = {
+    color: "light",
+    size: "sm",
+    outline: true,
+  };
+  OutlineLightSmall.storyName =
+    "Size=small, Type=light, Outline=true, State=normal, Icon Only=false";
+
+  export const OutlineLightSmallActive = Template.bind({});
+  OutlineLightSmallActive.args = {
+    color: "light",
+    size: "sm",
+    outline: true,
+    state: "active",
+  };
+  OutlineLightSmallActive.storyName =
+    "Size=small, Type=light, Outline=true, State=active, Icon Only=false";
+
+  export const OutlineLightSmallDisabled = Template.bind({});
+  OutlineLightSmallDisabled.args = {
+    color: "light",
+    size: "sm",
+    outline: true,
+    state: "disabled",
+  };
+  OutlineLightSmallDisabled.storyName =
+    "Size=small, Type=light, Outline=true, State=disabled, Icon Only=false";
